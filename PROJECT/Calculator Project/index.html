@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <form>
+          <div class="display">
+            <input type="text" placeholder="0" id="display" disabled />
+          </div>
+          <div>
+            <input type="button" value="AC" id="clear" class="operator" />
+            <input type="button" value="DEL" id="erase" class="del" />
+            <input type="button" value="." class="input_button" id="operator" />
+            <input type="button" value="/" class="input_button" id="operator" />
+          </div>
+          <div>
+            <input type="button" value="7" class="input_button" />
+            <input type="button" value="8" class="input_button" />
+            <input type="button" value="9" class="input_button" />
+            <input type="button" value="*" class="input_button" id="operator" />
+          </div>
+          <div>
+            <input type="button" value="4" class="input_button" />
+            <input type="button" value="5" class="input_button" />
+            <input type="button" value="6" class="input_button" />
+            <input type="button" value="-" class="input_button" id="operator" />
+          </div>
+          <div>
+            <input type="button" value="1" class="input_button" />
+            <input type="button" value="2" class="input_button" />
+            <input type="button" value="3" class="input_button" />
+            <input type="button" value="+" class="input_button" id="operator" />
+          </div>
+          <div>
+            <input type="button" value="00" class="input_button" />
+            <input type="button" value="0" class="input_button" />
+            <input type="button" value="=" id="equals" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
